@@ -2,6 +2,11 @@ html {
     font-size: 62.5%;
 }
 
+.alinhamento {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
 .hotbar {
     background-color: black;
     display: flex;
