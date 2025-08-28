@@ -1,3 +1,9 @@
+:root{
+    --laranja: #ffa500;
+    --preto: #000000; 
+    --branco: #ffffff;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,19 +15,19 @@ html {
 }
 
 .hotbar {
-    background-color: black;
+    background-color: var(--preto);
     display: flex;
     font-size: 5rem;
     justify-content: space-between;
     padding: 6rem;
 }
 .inicioHotbar {
-    color: white;
+    color: var(--branco);
     display: flex;
     gap: 5rem;
 }
 .fimHotbar {
-    color: orange;
+    color: var(--laranja);
     display: flex;
     gap: 5rem;
 }
@@ -70,10 +76,10 @@ html {
 .box0 {background-image: url(/imagens/219d754ba4a23d75376dbef0f77f2adf.jpg);}
 
 .descricao {
-    background-color: orange;
+    background-color: var(--laranja);
     width: 10rem;
     padding: 1rem;
-    color: white;
+    color: var(--branco);
     & h1 {
         font-size: 3rem;
     }
