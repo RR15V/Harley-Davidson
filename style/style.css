@@ -5,6 +5,7 @@ html {
 .alinhamento {
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-bottom: 100px;
 }
 
 .hotbar {
@@ -41,8 +42,8 @@ html {
 }
 
 .galeria div {
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 30rem;
+    min-height: 30rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,10 +62,27 @@ html {
 .box1 {background-image: url(/imagens/219d754ba4a23d75376dbef0f77f2adf.jpg);}
 .box2 {background-image: url(/imagens/547f47d9872f15da5629b58727e73077.jpg);}
 .box3 {background-image: url(/imagens/79b623aeba5ff5a3a352d3f16a692c13.jpg);}
-.box4 {background-image: url(/imagens/josh-marshall-7waHOTcvcT4-unsplash.jpg);}
 .box5 {background-image: url(/imagens/8880cf0e6f4f2683f0b28c419443f1c2.jpg);}
 .box6 {background-image: url(/imagens/aarya-rashinkar-QWgJfq8-ve8-unsplash.jpg);}
 .box7 {background-image: url(/imagens/harley-davidson-1HZcJjdtc9g-unsplash.jpg);}
 .box8 {background-image: url(/imagens/harley-davidson-BwXsi8tcXlk-unsplash.jpg);}
 .box9 {background-image: url(/imagens/josh-marshall-7waHOTcvcT4-unsplash.jpg);}
 .box0 {background-image: url(/imagens/219d754ba4a23d75376dbef0f77f2adf.jpg);}
+
+.descricao {
+    background-color: orange;
+    width: 10rem;
+    padding: 1rem;
+    color: white;
+    & h1 {
+        font-size: 3rem;
+    }
+    & p {
+        font-size: 1.5rem;
+    }
+}
+
+.auto {
+   width: auto;
+   height: auto;
+}
