@@ -19,3 +19,11 @@ html {
     display: flex;
     gap: 5rem;
 }
+
+.logo {
+    align-items: center;
+    display: flex;
+    font-size: 6rem;
+    gap: 5rem;
+    padding: 3rem;
+}
