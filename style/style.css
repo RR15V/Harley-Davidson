@@ -17,7 +17,7 @@ html {
 .hotbar {
     background-color: var(--preto);
     display: flex;
-    font-size: 5rem;
+    font-size: clamp(2rem, 5vw, 5rem);
     justify-content: space-between;
     padding: 6rem;
 }
@@ -35,7 +35,7 @@ html {
 .logo {
     align-items: center;
     display: flex;
-    font-size: 6rem;
+    font-size: clamp(4rem, 5vw, 6rem);
     gap: 5rem;
     padding: 3rem;
 }
@@ -81,10 +81,10 @@ html {
     padding: 1rem;
     color: var(--branco);
     & h1 {
-        font-size: 3rem;
+        font-size: clamp(2rem, 5vw, 3rem);;
     }
     & p {
-        font-size: 1.5rem;
+        font-size: clamp(1.5rem, 5vw, 2rem);;
     }
 }
 
