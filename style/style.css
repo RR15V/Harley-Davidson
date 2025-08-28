@@ -92,3 +92,33 @@ html {
    width: auto;
    height: auto;
 }
+
+@media(width <= 1300px) {
+    .alinhamento {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
+    .galeria div {
+        min-width: 20rem;
+        min-height: 20rem;
+    }
+}
+
+@media(width <= 800px) {
+    .alinhamento {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(24, auto);
+    }
+    .galeria div {
+        min-width: 10rem;
+        min-height: 10rem;
+    }
+}
