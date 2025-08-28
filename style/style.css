@@ -1,0 +1,17 @@
+.hotbar {
+    background-color: black;
+    display: flex;
+    font-size: 50px;
+    justify-content: space-between;
+    padding: 60px;
+}
+.inicioHotbar {
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+.fimHotbar {
+    color: orange;
+    display: flex;
+    gap: 50px;
+}
