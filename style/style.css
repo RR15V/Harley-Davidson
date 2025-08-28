@@ -55,7 +55,14 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
+
+.galeria div:hover {
+    scale: 1.05;
+    transition: 1s;
+}
+
 .span {
     grid-column: span 2;
     grid-row: span 2;
