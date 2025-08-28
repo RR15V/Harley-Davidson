@@ -36,6 +36,7 @@ html {
     align-items: center;
     display: flex;
     font-size: clamp(4rem, 5vw, 6rem);
+    font-weight: bold;
     gap: 5rem;
     padding: 3rem;
 }
@@ -48,6 +49,7 @@ html {
 }
 
 .galeria div {
+    border-radius: 1.5rem;
     min-width: 30rem;
     min-height: 30rem;
     background-position: center;
@@ -121,4 +123,12 @@ html {
         min-width: 10rem;
         min-height: 10rem;
     }
+}
+
+.icon {
+    font-size: clamp(5rem, 5vw, 10rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
 }
